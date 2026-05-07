@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SD Forward Medical Equipment Co., LTD</title>
   <link rel="icon" href="img/logo_round.png" />
+
   <link
     href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
     rel="stylesheet" />
@@ -44,7 +45,6 @@
       </button>
     </div>
   </nav>
-  <!-- <img src="img/product/Mindray BC 3000Plus.jpg" alt=""> -->
   <!-- Mobile Menu -->
   <div class="mobile-menu" id="mobileMenu">
     <a href="#home" onclick="closeMobile()">Home</a>
@@ -60,9 +60,14 @@
   </div>
   <!-- slide -->
   <section id="home">
-    <div class="slide-img">
-      <img src="img/slide.png" alt="" />
+    <div id="parent">
+      <div class="slide-img" id="slide-img">
+        <img src="img/slide.png" alt="" />
+        <div id="dot"></div>
+        <div id="dot"></div>
+      </div>
     </div>
+
   </section>
 
   <!-- ====== BRANDS ====== -->
@@ -143,7 +148,7 @@
             <div class="contact-link-icon"><i class="fas fa-phone"></i></div>
             <div>
               <div class="contact-link-label">Phone</div>
-              <div class="contact-link-value">+855 099 983 639</div>
+              <div class="contact-link-value">+855 99 983 639</div>
             </div>
           </a>
         </div>
@@ -280,7 +285,7 @@
             <div class="info-card-icon"><i class="fas fa-phone-alt"></i></div>
             <div>
               <div class="info-card-label">Phone</div>
-              <div class="info-card-value">+855 099 983 639</div>
+              <div class="info-card-value">+855 99 983 639</div>
             </div>
           </div>
           <div class="info-card">
@@ -355,6 +360,7 @@
   </div>
 
   <script src="script.js"></script>
+  <script src="bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

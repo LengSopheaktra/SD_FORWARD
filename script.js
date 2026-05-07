@@ -487,7 +487,6 @@ function buildProducts(filter = "all") {
         <div class="product-info">
           <div class="product-category">${prod.cat}</div>
           <div class="product-name">${prod.name}</div>
-          <div class="product-price">${prod.price} <span>USD</span></div>
           <button class="btn-buy" onclick="openModal(${prod.id})">
             <i class="fas fa-shopping-cart"></i> Buy Now
           </button>
@@ -524,7 +523,7 @@ function openModal(id) {
   document.getElementById("modalCat").textContent = prod.cat;
   document.getElementById("modalName").textContent = prod.name;
   document.getElementById("modalPrice").innerHTML =
-    `<span class="currency">$</span>${prod.price.replace("$", "")} <span style="font-size:14px;color:var(--gray-400);font-weight:400;">USD</span>`;
+    `<span class="currency">$</span>${prod.price.replace("$", "")} <span style="font-size:14px;color:var(--gray-400);font-weight:400;"></span>`;
   document.getElementById("modalDesc").textContent = info.desc;
 
   const featList = document.getElementById("modalFeatures");
