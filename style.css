@@ -1578,11 +1578,6 @@ footer {
   .brand-card {
     width: 140px;
   }
-
-  section {
-    /* padding: 60px 16px; */
-  }
-
   .modal-inner {
     grid-template-columns: 1fr;
   }
