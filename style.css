@@ -37,6 +37,9 @@ body {
   background: var(--white);
   overflow-x: hidden;
 }
+product-img-wrap::-webkit-scrollbar {
+  display: hidden;
+}
 
 /* ─── NAVBAR ─── */
 #navbar {

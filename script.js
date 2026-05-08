@@ -166,9 +166,6 @@ const productDescriptions = {
       "3-part WBC differential (neutrophils, lymphocytes, monocytes).",
       "Throughput: ~60 samples per hour  ideal for moderate-volume labs.",
       "Low sample volume: approx 9.6 µL whole blood.",
-      "Large color touch screenMultiple sample modes: whole blood, pre-diluted capillary/venous blood.",
-      "10-inch color touch screen for easy operation.",
-      "Data output / connectivity: (confirm with supplier) USB / LAN / RS-232, LIS compatibility.",
     ],
   },
   "For-9001": {
@@ -353,7 +350,7 @@ const products = [
     id: 4,
     name: "Excbio EA-5400",
     cat: "Electrolyte Analyzer",
-    price: "$1,600",
+    // price: "$1,600",
     priceNum: 1600,
   },
   {
@@ -363,13 +360,13 @@ const products = [
     price: "$15,000",
     priceNum: 15000,
   },
-  {
-    id: 6,
-    name: "Mindray",
-    cat: "Full Auto Chemistry Analyzer",
-    price: "$18,500",
-    priceNum: 18500,
-  },
+  // {
+  //   id: 6,
+  //   name: "Mindray",
+  //   cat: "Full Auto Chemistry Analyzer",
+  //   price: "$18,500",
+  //   priceNum: 18500,
+  // },
   {
     id: 7,
     name: "Mini-CLIA RL-C200",
@@ -482,7 +479,6 @@ function buildProducts(filter = "all") {
       card.innerHTML = `
         <div class="product-img-wrap">
           ${cardImgHTML}
-          <div class="product-badge">In Stock</div>
         </div>
         <div class="product-info">
           <div class="product-category">${prod.cat}</div>
@@ -522,8 +518,8 @@ function openModal(id) {
 
   document.getElementById("modalCat").textContent = prod.cat;
   document.getElementById("modalName").textContent = prod.name;
-  document.getElementById("modalPrice").innerHTML =
-    `<span class="currency">$</span>${prod.price.replace("$", "")} <span style="font-size:14px;color:var(--gray-400);font-weight:400;"></span>`;
+  // document.getElementById("modalPrice").innerHTML =
+  //   `<span class="currency">$</span>${prod.price.replace("$", "")} <span style="font-size:14px;color:var(--gray-400);font-weight:400;"></span>`;
   document.getElementById("modalDesc").textContent = info.desc;
 
   const featList = document.getElementById("modalFeatures");
