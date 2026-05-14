@@ -1,26 +1,22 @@
 // ─── DATA ───
 const brands = [
-  { name: "Mindray", Image: "img/brand/Mindray.png" },
+  { name: "Sinothinker", Image: "img/brand/Sinothinker.png" },
   { name: "Excbio", Image: "img/brand/EXCBIO.png" },
-  { name: "Zijian", Image: "img/brand/ZIJIAN.png" },
+  { name: "RealyTech", Image: "img/brand/RealyTech.png" },
   { name: "Forward", Image: "img/brand/Forward.png" },
   { name: "OUMAN", Image: "img/brand/OUMAN.jpg" },
 ];
 
 const catIconsMap = {
-  Hematology: "fas fa-tint",
-  "Electrolyte Analyzer": "fas fa-atom",
-  "Full Auto Chemistry Analyzer": "fas fa-flask",
-  "Semi-Auto Chemistry Analyzer": "fas fa-vial",
-  "ECG Machine": "fas fa-wave-square",
-  "Patient Monitor": "fas fa-heartbeat",
+  // Hematology: "fas fa-tint",
+  // "Electrolyte Analyzer": "fas fa-atom",
+  // "Full Auto Chemistry Analyzer": "fas fa-flask",
+  // "Semi-Auto Chemistry Analyzer": "fas fa-vial",
+  // "ECG Machine": "fas fa-wave-square",
+  // "Patient Monitor": "fas fa-heartbeat",
+  // Ultrasound: "fas fa-heartbeat",
 };
 
-// ─── PRODUCT IMAGES ───
-// Each product has:
-//   card: image shown on the product card
-//   images: array of up to 4 images shown in modal [main, thumb1, thumb2, thumb3]
-// Replace the paths below with your actual image paths.
 const productImages = {
   "Excbio EH8300": {
     card: "img/product/Excbio EH8300_3.png",
@@ -154,6 +150,128 @@ const productImages = {
       "img/products/yk-8000d-2.png",
       "img/products/yk-8000d-3.png",
       "img/products/yk-8000d-4.png",
+    ],
+  },
+  "GE LOGIQ E9": {
+    card: "img/Ultrasound/GE LOGIQ E9/GE LOGIQ E91.jpg",
+    images: [
+      "img/Ultrasound/GE LOGIQ E9/GE LOGIQ E91.jpg",
+      "img/Ultrasound/GE LOGIQ E9/GE LOGIQ E92.webp",
+      "img/Ultrasound/GE LOGIQ E9/GE LOGIQ E93.webp",
+      "img/Ultrasound/GE LOGIQ E9/GE LOGIQ E9.avif",
+    ],
+  },
+  "GE LOGIQ F8": {
+    card: "img/Ultrasound/GE LOGIQ F8/GE LOGIQ F81.jpg",
+    images: [
+      "img/Ultrasound/GE LOGIQ F8/GE LOGIQ F81.jpg",
+      "img/Ultrasound/GE LOGIQ F8/GE LOGIQ F82.jpg",
+      "img/Ultrasound/GE LOGIQ F8/GE LOGIQ F83.jpg",
+    ],
+  },
+  "GE LOGIQ P5": {
+    card: "img/Ultrasound/GE LOGIQ P5/ge-logiq-p51.jpg",
+    images: [
+      "img/Ultrasound/GE LOGIQ P5/ge-logiq-p51.jpg",
+      "img/Ultrasound/GE LOGIQ P5/ge-logiq-p52.jpg",
+      "img/Ultrasound/GE LOGIQ P5/ge-logiq-p53.jpg",
+    ],
+  },
+  "GE Vivid S6": {
+    card: "img/Ultrasound/GE Vivid S6/GE Vivid S63.jpg",
+    images: [
+      "img/Ultrasound/GE Vivid S6/GE Vivid S61.jpg",
+      "img/Ultrasound/GE Vivid S6/GE Vivid S62.jpg",
+      "img/Ultrasound/GE Vivid S6/GE Vivid S63.jpg",
+    ],
+  },
+  "GE Voluson E10": {
+    card: "img/Ultrasound/GE Voluson E10/GE Voluson E101.jpg",
+    images: [
+      "img/Ultrasound/GE Voluson E10/GE Voluson E101.jpg",
+      "img/Ultrasound/GE Voluson E10/GE Voluson E102.jpg",
+    ],
+  },
+  "GE Voluson S6": {
+    card: "img/Ultrasound/GE Voluson S6/GE Voluson S61.jpg",
+    images: [
+      "img/Ultrasound/GE Voluson S6/GE Voluson S61.jpg",
+      "img/Ultrasound/GE Voluson S6/GE Voluson S62.png",
+      "img/Ultrasound/GE Voluson S6/GE Voluson S63.jpg",
+    ],
+  },
+  "GE Voluson S8": {
+    card: "img/Ultrasound/GE Voluson S8/GE Voluson S81.JPG",
+    images: [
+      "img/Ultrasound/GE Voluson S8/GE Voluson S81.JPG",
+      "img/Ultrasound/GE Voluson S8/GE Voluson S82.JPG",
+      "img/Ultrasound/GE Voluson S8/GE Voluson S83.JPG",
+      "img/Ultrasound/GE Voluson S8/GE Voluson S84.JPG",
+    ],
+  },
+  "MINDRAY DC-3": {
+    card: "img/Ultrasound/MINDRAY DC-3/MINDRAY DC-31.jpg",
+    images: [
+      "img/Ultrasound/MINDRAY DC-3/MINDRAY DC-31.jpg",
+      "img/Ultrasound/MINDRAY DC-3/MINDRAY DC-32.jpg",
+      "img/Ultrasound/MINDRAY DC-3/MINDRAY DC-33.jpg",
+    ],
+  },
+  "MINDRAY DC-28": {
+    card: "img/Ultrasound/MINDRAY DC-28/MINDRAY DC-282.jpg",
+    images: [
+      "img/Ultrasound/MINDRAY DC-28/MINDRAY DC-282.jpg",
+      "img/Ultrasound/MINDRAY DC-28/MINDRAY DC-283.jpg",
+      "img/Ultrasound/MINDRAY DC-28/MINDRAY DC-284.jpg",
+    ],
+  },
+  "MINDRAY DC-30": {
+    card: "img/Ultrasound/MINDRAY DC-30/MINDRAY DC-301.jpg",
+    images: [
+      "img/Ultrasound/MINDRAY DC-30/MINDRAY DC-301.jpg",
+      "img/Ultrasound/MINDRAY DC-30/MINDRAY DC-302.jpg",
+      "img/Ultrasound/MINDRAY DC-30/MINDRAY DC-303.jpg",
+    ],
+  },
+  "MINDRAY DC-N3": {
+    card: "img/Ultrasound/MINDRAY DC-N3/MINDRAY DC-N31.jpg",
+    images: [
+      "img/Ultrasound/MINDRAY DC-N3/MINDRAY DC-N31.jpg",
+      "img/Ultrasound/MINDRAY DC-N3/MINDRAY DC-N32.jpg",
+      "img/Ultrasound/MINDRAY DC-N3/MINDRAY DC-N33.jpg",
+    ],
+  },
+  "ZONCARE VIV 40": {
+    card: "img/Ultrasound/ZONCARE VIV 40/ZONCARE VIV 401.webp",
+    images: [
+      "img/Ultrasound/ZONCARE VIV 40/ZONCARE VIV 401.webp",
+      "img/Ultrasound/ZONCARE VIV 40/ZONCARE VIV 402.jpg",
+      "img/Ultrasound/ZONCARE VIV 40/ZONCARE VIV 403.JPG",
+    ],
+  },
+  "ZONCARE VIV 60": {
+    card: "img/Ultrasound/ZONCARE VIV 60/ZONCARE VIV 603.JPG",
+    images: [
+      "img/Ultrasound/ZONCARE VIV 60/ZONCARE VIV 602.jpg",
+      "img/Ultrasound/ZONCARE VIV 60/ZONCARE VIV 603.png",
+      "img/Ultrasound/ZONCARE VIV 60/ZONCARE VIV 602.JPG",
+    ],
+  },
+  "ZONCARE VIV 80": {
+    card: "img/Ultrasound/ZONCARE VIV 80/ZONCARE VIV 801.jpg",
+    images: [
+      "img/Ultrasound/ZONCARE VIV 80/ZONCARE VIV 801.jpg",
+      "img/Ultrasound/ZONCARE VIV 80/ZONCARE VIV 803.PNG",
+      "img/Ultrasound/ZONCARE VIV 80/ZONCARE VIV 802.webp",
+    ],
+  },
+  "X-RAY 300ma Siment": {
+    card: "img/X-RAY Machine/X-RAY 300ma Siment/X-RAY 300ma Siment1.jpg",
+    images: [
+      "img/X-RAY Machine/X-RAY 300ma Siment/X-RAY 300ma Siment1.jpg",
+      "img/X-RAY Machine/X-RAY 300ma Siment/X-RAY 300ma Siment2.jpg",
+      "img/X-RAY Machine/X-RAY 300ma Siment/X-RAY 300ma Siment3.webp",
+      "img/X-RAY Machine/X-RAY 300ma Siment/X-RAY 300ma Siment4.webp",
     ],
   },
 };
@@ -322,6 +440,27 @@ const productDescriptions = {
       "Bedside and central monitoring",
     ],
   },
+  "GE LOGIQ E9": {
+    desc: "The GE Logiq E9 is GE's premium flagship radiology ultrasound system. With extraordinary image quality in all applications across all body types the E9 is a remarkable replacement for the Sequoia, Toshiba Aplio and previous GE premium radiology platforms like the Logiq 7 and Logiq 9.",
+    features: [
+      "B, CFM, M, PW, PDI",
+      "High Resolution Flat Panel LCD Monitor",
+      "Tissue Harmonics",
+      "Coded Harmonic Imaging",
+      "Virtual Convex",
+      "Anatomical M-Mode",
+      "TruScan Architecture (TruAccess, SmartScan, ComfortScan)",
+    ],
+  },
+  "GE LOGIQ F8": {
+    desc: "New & Refurbished Ultrasound – GE Logiq F8 Ultrasound Machine. Enhanced image contrast helps you distinguish between tissue types. The ability to image both superficial and deep anatomy, with excellent penetration, helps you image confidently. Incorporating established capabilities from GE’s flagship ultrasound systems, the LOGIQ F8 provides you with an affordable way to offer the advantages of advanced, high-performance ultrasound to your patients. Advanced tools and intuitive protocols help simplify image acquisition and enhance your overall image quality, with our suite of features including:",
+    features: [
+      "Phase Inversion Harmonic Imaging",
+      "CrossXBeam*",
+      "Speckle Reduction Imaging",
+      "Focus on IMAGE QUALITY",
+    ],
+  },
 };
 
 const products = [
@@ -429,6 +568,111 @@ const products = [
     cat: "Patient Monitor",
     price: "$4,800",
     priceNum: 4800,
+  },
+  {
+    id: 16,
+    name: "GE LOGIQ E9",
+    cat: "Ultrasound",
+    price: "$4,800",
+    priceNum: 4800,
+  },
+  {
+    id: 17,
+    name: "GE LOGIQ F8",
+    cat: "Ultrasound",
+    price: "$4,800",
+    priceNum: 4800,
+  },
+  {
+    id: 18,
+    name: "GE LOGIQ P5",
+    cat: "Ultrasound",
+    price: "$1,000",
+    priceNum: 1000,
+  },
+  {
+    id: 19,
+    name: "GE Vivid S6",
+    cat: "Ultrasound",
+    price: "$1,000",
+    priceNum: 1000,
+  },
+  {
+    id: 20,
+    name: "GE Voluson E10",
+    cat: "Ultrasound",
+    price: "$1,000",
+    priceNum: 1000,
+  },
+  {
+    id: 22,
+    name: "GE Voluson S8",
+    cat: "Ultrasound",
+    price: "$1,000",
+    priceNum: 1000,
+  },
+  {
+    id: 23,
+    name: "MINDRAY DC-3",
+    cat: "Ultrasound",
+    price: "$1,000",
+    priceNum: 1000,
+  },
+  {
+    id: 24,
+    name: "MINDRAY DC-28",
+    cat: "Ultrasound",
+    price: "$1,000",
+    priceNum: 1000,
+  },
+  {
+    id: 25,
+    name: "MINDRAY DC-30",
+    cat: "Ultrasound",
+    price: "$1,000",
+    priceNum: 1000,
+  },
+  {
+    id: 26,
+    name: "MINDRAY DC-N3",
+    cat: "Ultrasound",
+    price: "$1,000",
+    priceNum: 1000,
+  },
+  {
+    id: 27,
+    name: "ZONCARE VIV 40",
+    cat: "Ultrasound",
+    price: "$1,000",
+    priceNum: 1000,
+  },
+  {
+    id: 28,
+    name: "ZONCARE VIV 60",
+    cat: "Ultrasound",
+    price: "$1,000",
+    priceNum: 1000,
+  },
+  {
+    id: 29,
+    name: "ZONCARE VIV 80",
+    cat: "Ultrasound",
+    price: "$1,000",
+    priceNum: 1000,
+  },
+  {
+    id: 30,
+    name: "GE Voluson S6",
+    cat: "Ultrasound",
+    price: "$1,000",
+    priceNum: 1000,
+  },
+  {
+    id: 31,
+    name: "X-RAY 300ma Siment",
+    cat: "X-RAY Machine",
+    price: "$1,000",
+    priceNum: 1000,
   },
 ];
 
