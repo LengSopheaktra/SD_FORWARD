@@ -242,9 +242,9 @@ const productImages = {
   "ZONCARE VIV 60": {
     card: "img/Ultrasound/ZONCARE VIV 60/ZONCARE VIV 603.JPG",
     images: [
+      "img/Ultrasound/ZONCARE VIV 60/ZONCARE VIV 603.jpg",
       "img/Ultrasound/ZONCARE VIV 60/ZONCARE VIV 602.jpg",
-      "img/Ultrasound/ZONCARE VIV 60/ZONCARE VIV 603.png",
-      "img/Ultrasound/ZONCARE VIV 60/ZONCARE VIV 602.JPG",
+      "img/Ultrasound/ZONCARE VIV 60/ZONCARE VIV 601.jpg",
     ],
   },
   "ZONCARE VIV 80": {
