@@ -54,9 +54,7 @@ const productImages = {
     card: "img/product/Mindray BC 3000Plus.png",
     images: [
       "img/product/Mindray BC 3000Plus.png",
-      "img/products/bc-3000-2.png",
-      "img/products/bc-3000-3.png",
-      "img/products/bc-3000-4.png",
+      "img/product/Mindray BC-30001.png",
     ],
   },
   "EA-5400": {
@@ -70,9 +68,7 @@ const productImages = {
     card: "img/product/Excbio EC 9002 B Auto Chemistry Analyzer.png",
     images: [
       "img/product/Excbio EC 9002 B Auto Chemistry Analyzer.png",
-      "img/products/ec-9002b-2.png",
-      "img/products/ec-9002b-3.png",
-      "img/products/ec-9002b-4.png",
+      "img/product/Excbio EC 9002 B1.png",
     ],
   },
   Mindray: {
@@ -88,71 +84,53 @@ const productImages = {
     card: "img/product/mini-clia ri-c2000.png",
     images: [
       "img/product/mini-clia ri-c2000.png",
-      "img/products/rl-c200-2.png",
-      "img/products/rl-c200-3.png",
-      "img/products/rl-c200-4.png",
+      "img/product/Mini-CLIA RL-C2001.png",
     ],
   },
   "Excbio SK6100": {
     card: "img/product/Excbio SK6100.png",
-    images: [
-      "img/product/Excbio SK6100.png",
-      "img/products/sk6100-2.png",
-      "img/products/sk6100-3.png",
-      "img/products/sk6100-4.png",
-    ],
+    images: ["img/product/Excbio SK6100.png", "img/product/Excbio SK61001.png"],
   },
   "ZIJIAN BAS-10s": {
     card: "img/product/ZIJIAN BAS-10s.png",
     images: [
       "img/product/ZIJIAN BAS-10s.png",
-      "img/products/bas-10s-2.png",
-      "img/products/bas-10s-3.png",
-      "img/products/bas-10s-4.png",
+      "img/product/ZIJIAN BAS-10s1.png",
     ],
   },
   "Excbio EC-9005": {
     card: "img/product/Excbio EC-9005.png",
     images: [
       "img/product/Excbio EC-9005.png",
-      "img/products/ec-9005-2.png",
-      "img/products/ec-9005-3.png",
-      "img/products/ec-9005-4.png",
+      "img/product/Excbio EC-90051.png",
     ],
   },
   "PE-E12B": {
     card: "img/product/PE-E12A ECG Machine 12 Channel.png",
     images: [
       "img/product/PE-E12A ECG Machine 12 Channel.png",
-      "img/products/pe-e12a-2.png",
-      "img/products/pe-e12a-3.png",
+      "img/product/PE-E12B.png",
     ],
   },
   "ECG-1206A": {
     card: "img/product/ECG machine _ECG-1206A.png",
     images: [
       "img/product/ECG machine _ECG-1206A.png",
-      "img/products/ecg-1206a-2.png",
-      "img/products/ecg-1206a-3.png",
-      "img/products/ecg-1206a-4.png",
+      "img/product/ECG-1206A.png",
     ],
   },
   "Defibrillator Monitor 7000D": {
     card: "img/product/Defibrillator Monitor 7000D.png",
     images: [
       "img/product/Defibrillator Monitor 7000D.png",
-      "img/products/7000d-2.png",
-      "img/products/7000d-3.png",
-      "img/products/7000d-4.png",
+      "img/product/Defibrillator Monitor 7000D1.png",
     ],
   },
   "S8 Monitor Defibrillator": {
     card: "img/product/S8 Monitor Defibrillator.png",
     images: [
       "img/product/S8 Monitor Defibrillator.png",
-      "img/products/s8-2.png",
-      "img/products/s8-3.png",
-      "img/products/s8-4.png",
+      "img/product/S8 Monitor Defibrillator1.png",
     ],
   },
   "YK-8000D": {
@@ -562,6 +540,165 @@ const productDescriptions = {
       "Focus on IMAGE QUALITY",
     ],
   },
+  "GE LOGIQ P5": {
+    desc: "Compact and versatile ultrasound system designed for reliable imaging performance across abdominal, vascular, OB/GYN, and small parts examinations. The GE LOGIQ P5 delivers efficient workflow and dependable image quality for everyday clinical use.",
+    features: [
+      "Compact and ergonomic design",
+      "Advanced Color Doppler imaging",
+      "CrossXBeam imaging technology",
+      "Speckle Reduction Imaging",
+    ],
+  },
+
+  "GE Vivid S6": {
+    desc: "Advanced cardiovascular ultrasound system combining premium cardiac imaging with portability and workflow efficiency. The GE Vivid S6 supports echocardiography, vascular, and shared-service applications.",
+    features: [
+      "Excellent cardiac imaging performance",
+      "Stress echo capability",
+      "Tissue Doppler Imaging",
+      "Portable and space-saving system",
+    ],
+  },
+
+  "GE Voluson E10": {
+    desc: "High-end women’s health ultrasound platform delivering exceptional 2D, 3D, and 4D imaging performance for OB/GYN and fetal assessment. The Voluson E10 enhances diagnostic confidence with advanced visualization technologies.",
+    features: [
+      "HDlive imaging technology",
+      "Advanced 4D fetal imaging",
+      "Radiance System Architecture",
+      "Exceptional image clarity and detail",
+    ],
+  },
+
+  "GE Voluson S8": {
+    desc: "Premium ultrasound system designed for women’s healthcare applications with outstanding imaging performance and advanced workflow tools for OB/GYN diagnostics.",
+    features: [
+      "Real-time 4D imaging",
+      "Advanced fetal assessment tools",
+      "High-resolution imaging",
+      "User-friendly touchscreen interface",
+    ],
+  },
+
+  "MINDRAY DC-3": {
+    desc: "Reliable black-and-white ultrasound system offering practical imaging solutions for routine clinical examinations in hospitals and clinics.",
+    features: [
+      "Compact and lightweight design",
+      "Clear grayscale imaging",
+      "Easy-to-use control panel",
+      "Suitable for general examinations",
+    ],
+  },
+
+  "MINDRAY DC-28": {
+    desc: "Versatile color Doppler ultrasound system delivering dependable image quality and efficient workflow for abdominal, OB/GYN, and vascular imaging.",
+    features: [
+      "Full-screen touch interface",
+      "iBeam spatial compounding",
+      "Tissue Harmonic Imaging",
+      "Portable clinical solution",
+    ],
+  },
+
+  "MINDRAY DC-30": {
+    desc: "Modern ultrasound system designed to provide advanced imaging capabilities with streamlined workflow for a wide range of diagnostic applications.",
+    features: [
+      "PSH harmonic imaging",
+      "iClear speckle suppression",
+      "Color Doppler capability",
+      "Ergonomic and compact design",
+    ],
+  },
+
+  "MINDRAY DC-N3": {
+    desc: "Compact and efficient color Doppler ultrasound system with enhanced imaging technologies for reliable diagnostic performance in daily clinical practice.",
+    features: [
+      "Natural Touch Elastography",
+      "iBeam spatial compounding",
+      "Tissue Harmonic Imaging",
+      "Energy-efficient operation",
+    ],
+  },
+
+  "ZONCARE VIV 40": {
+    desc: "Digital color Doppler ultrasound system offering practical imaging performance and smooth workflow for routine diagnostic applications.",
+    features: [
+      "High-definition LCD monitor",
+      "Multi-frequency probe support",
+      "Color Doppler imaging",
+      "Compact clinical design",
+    ],
+  },
+
+  "ZONCARE VIV 60": {
+    desc: "Advanced ultrasound imaging platform delivering improved image quality and efficient workflow for hospitals and diagnostic centers.",
+    features: [
+      "Advanced Doppler technologies",
+      "Wide clinical application support",
+      "High-resolution imaging",
+      "User-friendly interface",
+    ],
+  },
+
+  "ZONCARE VIV 80": {
+    desc: "Premium ultrasound system designed for comprehensive imaging applications with enhanced image processing and diagnostic performance.",
+    features: [
+      "Advanced imaging architecture",
+      "Real-time Doppler imaging",
+      "Large HD display",
+      "Efficient workflow management",
+    ],
+  },
+
+  "GE Voluson S6": {
+    desc: "Women’s health ultrasound system designed to deliver excellent imaging quality and productivity for OB/GYN examinations and fetal imaging.",
+    features: [
+      "Advanced 3D/4D imaging",
+      "HDlive technology support",
+      "Efficient workflow tools",
+      "Excellent fetal visualization",
+    ],
+  },
+
+  "X-RAY 300ma Siment": {
+    desc: "Reliable 300mA diagnostic X-ray system designed for high-quality radiographic imaging in hospitals and healthcare facilities.",
+    features: [
+      "High-frequency X-ray generator",
+      "Stable imaging performance",
+      "User-friendly control system",
+      "Durable medical-grade construction",
+    ],
+  },
+
+  "HES-3002A": {
+    desc: "Medical equipment solution designed for dependable clinical performance and operational efficiency in healthcare environments.",
+    features: [
+      "Reliable system operation",
+      "Compact equipment design",
+      "Easy maintenance access",
+      "Suitable for hospital use",
+    ],
+  },
+
+  "Infant Radiant Warmer": {
+    desc: "Advanced neonatal care equipment designed to provide controlled warmth and safe thermal management for newborn infants in clinical environments.",
+    features: [
+      "Microprocessor temperature control",
+      "Overheat protection system",
+      "LED display monitoring",
+      "Adjustable heating modes",
+    ],
+  },
+
+  "ENT Endoscopy": {
+    desc: "Specialized ENT endoscopy system designed for precise visualization and examination of ear, nose, and throat conditions with high-definition imaging support.",
+    features: [
+      "High-definition visualization",
+      "Flexible and rigid scope support",
+      "LED light source compatibility",
+      "Smooth image capture workflow",
+    ],
+  },
 };
 
 const products = [
@@ -656,13 +793,13 @@ const products = [
     price: "$1,800",
     priceNum: 1800,
   },
-  {
-    id: 12,
-    name: "ECG-1206A",
-    cat: "ECG Machine",
-    price: "$2,400",
-    priceNum: 2400,
-  },
+  // {
+  //   id: 12,
+  //   name: "ECG-1206A",
+  //   cat: "ECG Machine",
+  //   price: "$2,400",
+  //   priceNum: 2400,
+  // },
   {
     id: 13,
     name: "Defibrillator Monitor 7000D",
