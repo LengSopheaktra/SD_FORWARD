@@ -39,7 +39,9 @@ const productImages = {
     images: [
       "img/product/Excbio EH8300_3.png",
       "img/product/Excbio EH8300 .png",
-      "img/product/Excbio EH8300_2.png",
+      "img/Hamatology/EH 8300/EH 83003.jpg",
+      "img/Hamatology/EH 8300/EH 83002.jpg",
+      // "img/product/Excbio EH8300_2.png",
     ],
   },
   "For-9001": {
@@ -47,7 +49,6 @@ const productImages = {
     images: [
       "img/product/Forward FOR-9001_2.png",
       "img/product/Forward FOR-9001.png",
-      "img/product/Forward FOR-9001_3.png",
     ],
   },
   "Mindray BC-3000": {
@@ -329,20 +330,20 @@ const productImages = {
     ],
   },
   "Mini-CILA Rl-c2000": {
-    card: "img/Full Auto Chemistry Analyzer/Mini-CILA Rl-c2000/Mini-CILA Rl-c20001.png",
+    card: "img/Full Auto Chemistry Analyzer/Mini-CILA Rl-c2000/Mini-CILA Rl-c20002.jpg",
     images: [
-      "img/Full Auto Chemistry Analyzer/Mini-CILA Rl-c2000/Mini-CILA Rl-c20001.png",
       "img/Full Auto Chemistry Analyzer/Mini-CILA Rl-c2000/Mini-CILA Rl-c20002.jpg",
+      "img/Full Auto Chemistry Analyzer/Mini-CILA Rl-c2000/Mini-CILA Rl-c20001.png",
       "img/Full Auto Chemistry Analyzer/Mini-CILA Rl-c2000/Mini-CILA Rl-c20003.jpg",
     ],
   },
   "EC-9002 B": {
-    card: "img/Full Auto Chemistry Analyzer/EC-9002 B/EC-9002 B1.jpg",
+    card: "img/Full Auto Chemistry Analyzer/EC-9002 B/EC-9002 B4.jpg",
     images: [
+      "img/Full Auto Chemistry Analyzer/EC-9002 B/EC-9002 B4.jpg",
       "img/Full Auto Chemistry Analyzer/EC-9002 B/EC-9002 B1.jpg",
       "img/Full Auto Chemistry Analyzer/EC-9002 B/EC-9002 B2.jpg",
       "img/Full Auto Chemistry Analyzer/EC-9002 B/EC-9002 B3.jpg",
-      "img/Full Auto Chemistry Analyzer/EC-9002 B/EC-9002 B4.jpg",
     ],
   },
   "ENT Endoscopy": {
@@ -709,13 +710,13 @@ const products = [
     price: "$2,800",
     priceNum: 2800,
   },
-  {
-    id: 2,
-    name: "For-9001",
-    cat: "Hematology",
-    price: "$1,950",
-    priceNum: 1950,
-  },
+  // {
+  //   id: 2,
+  //   name: "For-9001",
+  //   cat: "Hematology",
+  //   price: "$1,950",
+  //   priceNum: 1950,
+  // },
   {
     id: 3,
     name: "Mindray BC-3000",
@@ -723,13 +724,13 @@ const products = [
     price: "$3,200",
     priceNum: 3200,
   },
-  {
-    id: 32,
-    name: "EH 8300",
-    cat: "Hematology",
-    price: "$3,200",
-    priceNum: 3200,
-  },
+  // {
+  //   id: 32,
+  //   name: "EH 8300",
+  //   cat: "Hematology",
+  //   price: "$3,200",
+  //   priceNum: 3200,
+  // },
   {
     id: 33,
     name: "FOR-9001",
@@ -744,13 +745,13 @@ const products = [
     // price: "$1,600",
     priceNum: 1600,
   },
-  {
-    id: 5,
-    name: "Excbio EC 9002 B",
-    cat: "Full Auto Chemistry Analyzer",
-    price: "$15,000",
-    priceNum: 15000,
-  },
+  // {
+  //   id: 5,
+  //   name: "Excbio EC 9002 B",
+  //   cat: "Full Auto Chemistry Analyzer",
+  //   price: "$15,000",
+  //   priceNum: 15000,
+  // },
   // {
   //   id: 6,
   //   name: "Mindray",
@@ -758,20 +759,20 @@ const products = [
   //   price: "$18,500",
   //   priceNum: 18500,
   // },
-  {
-    id: 7,
-    name: "Mini-CLIA RL-C200",
-    cat: "Full Auto Chemistry Analyzer",
-    price: "$8,900",
-    priceNum: 8900,
-  },
-  {
-    id: 8,
-    name: "Excbio SK6100",
-    cat: "Full Auto Chemistry Analyzer",
-    price: "$22,000",
-    priceNum: 22000,
-  },
+  // {
+  //   id: 7,
+  //   name: "Mini-CLIA RL-C200",
+  //   cat: "Full Auto Chemistry Analyzer",
+  //   price: "$8,900",
+  //   priceNum: 8900,
+  // },
+  // {
+  //   id: 8,
+  //   name: "Excbio SK6100",
+  //   cat: "Full Auto Chemistry Analyzer",
+  //   price: "$22,000",
+  //   priceNum: 22000,
+  // },
   {
     id: 9,
     name: "ZIJIAN BAS-10s",
@@ -786,13 +787,13 @@ const products = [
     price: "$2,100",
     priceNum: 2100,
   },
-  {
-    id: 11,
-    name: "PE-E12B",
-    cat: "ECG Machine",
-    price: "$1,800",
-    priceNum: 1800,
-  },
+  // {
+  //   id: 11,
+  //   name: "PE-E12B",
+  //   cat: "ECG Machine",
+  //   price: "$1,800",
+  //   priceNum: 1800,
+  // },
   // {
   //   id: 12,
   //   name: "ECG-1206A",
@@ -807,13 +808,13 @@ const products = [
     price: "$9,500",
     priceNum: 9500,
   },
-  {
-    id: 14,
-    name: "S8 Monitor Defibrillator",
-    cat: "Defibrillator",
-    price: "$12,000",
-    priceNum: 12000,
-  },
+  // {
+  //   id: 14,
+  //   name: "S8 Monitor Defibrillator",
+  //   cat: "Defibrillator",
+  //   price: "$12,000",
+  //   priceNum: 12000,
+  // },
   {
     id: 15,
     name: "YK-8000D",
